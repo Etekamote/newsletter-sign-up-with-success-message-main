@@ -1,0 +1,29 @@
+@font-face {
+    font-family: "Roboto";
+    src: url("./assets/fonts/Roboto-Regular.ttf");
+}
+@font-face {
+    font-family: "Roboto-Bold";
+    src: url("./assets/fonts/Roboto-Bold.ttf");
+}
+
+$primary-color: hsl(4, 100%, 67%);
+$color-1: hsl(234, 29%, 20%);
+$color-2: hsl(235, 18%, 26%);
+$color-3: hsl(231, 7%, 60%);
+$white: #fff;
+
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-family: "Roboto";
+    font-size: 1.6rem;
+}
